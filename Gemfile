@@ -5,10 +5,12 @@ gem 'rails', '3.2.14'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
+
 gem 'pg'
 gem 'eco'
 gem 'ejs'
 gem 'bcrypt-ruby', :require => 'bcrypt'
+
 
 
 # Gems used only for assets and not required
