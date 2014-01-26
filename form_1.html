@@ -3,7 +3,7 @@
 <head>
 	<title>Survey Form</title>
 	<Link href="style.css" rel="stylesheet" type="text/css">
-	<Link href="../css/bootstrap.css" rel="stylesheet" type="text/css">
+	<Link href="./css/bootstrap.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 	<div class="container">
@@ -14,15 +14,15 @@
 				<input type="radio" name="a1" value="yes">Yes
 				<input type="radio" name="a1" value="no">No <br>
 				Why?
-				<input type="text" name="a2" id="txtbox" maxlength="250">
+				<input type="text" name="a1_5" id="txtboxshort" maxlength="250">
 			</li>
 			<li>
-				What is the main purpose of your site?<br>
-				<input type="textarea" name="a2" id="txtbox" maxlength="400" placeholder="What do visistors do on your website?" placeholder=" Where do they come from?"><br>
+				What do you mainly use your site for?<br>
+				<input type="textarea" name="a2" id="txtboxlong" maxlength="250" placeholder="What do visistors do on your website? Where do they come from?"><br>
 			</li>
 			<li>
 				What kind of data are you collecting?<br>
-				<input type="text" name="a3"><br>
+				<input type="text" name="a3" placeholder="From the website? Offline?"><br>
 			</li>
 			<li>
 				What tools do you use to collect your data?<br>
@@ -30,12 +30,33 @@
 			</li>
 			<li>
 				Do you provide or use any APIs?<br>
-				<input type="text" name="a5"><br>
+				<input type="radio" name="a5" value="yes">Yes
+				<input type="radio" name="a5" value="no">No <br>
+				Please list them:
+				<input type="text" name="a5_5" id="txtboxshort"><br>
 			</li>
 			<li>
-				Do you provide or use any APIs?<br>
-				<input type="text" name="a5"><br>
+				Is there any information you wish you had?<br>
+				<input type="text" name="a6"><br>
 			</li>
+			<li>
+				What kind of tool(s) would help your volunteers?<br>
+				<input type="text" name="a7"><br>
+			</li>
+			<li>
+				What kind of tool(s) would help your administrators and program managers?<br>
+				<input type="text" name="a8"><br>
+			</li>
+			<li>
+				What tools do you use to share information between colleagues and other organizations?<br>
+				<input type="text" name="a9"><br>
+			</li>
+			<li>
+				What tools do you use for email marketing?<br>
+				<input type="text" name="a10"><br>
+			</li>
+
+			<br>
 			<input type="submit" value="SUBMIT">
 
 

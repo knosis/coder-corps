@@ -2,7 +2,11 @@ input {
   padding: 10px;
   margin: 10px;
 }
-#txtbox {
+#txtboxshort {
   height: 50px;
-  width: 200px;
+  width: 300px;
+}
+#txtboxlong {
+  height: 50px;
+  width: 600px;
 }
