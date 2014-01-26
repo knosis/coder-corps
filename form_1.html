@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+	<title>Survey Form</title>
+	<LINK href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div class="container">
+	<form name="survey" action="post.php" method="post">
+		<ol>
+			<li>
+				Do you need a new website?<br>
+				<input type="radio" name="a1" value="yes">Yes
+				<input type="radio" name="a1" value="no">No
+			</li>
+			<li>
+				What is the main purpose of your site?<br>
+				<input type="textarea" name="a2" id="txtbox" maxlength="250"><br>
+			</li>
+			<li>
+				What kind of data are you collecting?<br>
+				<input type="text" name="a3"><br>
+			</li>
+			<li>
+				What tools do you use to collect your data?<br>
+				<input type="text" name="a4"><br>
+			</li>
+			<li>
+				Do you provide or use any APIs?<br>
+				<input type="text" name="a5"><br>
+			</li>
+			<input type="submit" value="SUBMIT">
+
+
+		</ol>
+	</form>
+	</div>
+</body>
+</html>
